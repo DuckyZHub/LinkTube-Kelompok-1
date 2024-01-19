@@ -1,33 +1,6 @@
-# Youtube Player for Flutter Example
+Project Akhir Semester 5 Broadband Multimedia B 21 Politeknik Negeri Jakarta
 
-```dart
-YoutubePlayerController _controller;
-
-@override
-void initState(){
-    _controller = YoutubePlayerController(
-        initialVideoId: 'iLnmTe5Q2Qw',
-        flags: YoutubePlayerFlags(
-            mute: false,
-            autoPlay: true,
-        ),
-    );
-    super.initState();
-}
-
-@override
-Widget build(BuildContext context){
-    return YoutubePlayer(
-       controller: _controller,
-       showVideoProgressIndicator: true,
-       videoProgressIndicatorColor: Colors.amber,
-       progressColors: ProgressColors(
-          playedColor: Colors.amber,
-          handleColor: Colors.amberAccent,
-       ),
-       onReady: () {
-          print('Player is ready.');
-       },
-    );
-}
-```
+Kelompok 1
+-Aditya Putra Ramadhan (2103421048)
+-Asrul Hafidz Rizqolima (2103421020)
+-Wangsa Reisyah Fatahillah (2103421005) 
